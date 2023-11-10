@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(picture.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: wheat; 
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: wheat;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:#000016;
+    font-size: 3.5em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+.fa9ra h3{
+    color: bisque;
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+.fa9ra p{
+    font-size: 1.7em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+}
+.fa9ra2{
+    background-color: #000016;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    color:wheat;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 30px;
+}
+#soustitle{
+    color: rgb(34, 104, 197);
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+.fa9ra2 p{
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+}
+.fa9ra3 h1{
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 30px;
+}
+.fa9ra3 h2{
+    color: wheat;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+.fa9ra3 p{
+    font-size: 1.7em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+}
+#ism{
+    color: #601cfc;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
+}
+#ism:hover{
+    color: #3a6cf4;
+}
+#ism1{
+    color:#000016;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    transition: 0.7s ease;
+    display: inline-block;
+}
+#ism1:hover{
+    transform: scale(1.1);
+    color: rgb(48, 41, 135);
+}
+#ism2{
+    color: #601cfc;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif; 
+}
+#ism2:hover{
+    color: #3a6cf4;
+}
+#targetup{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    color: #601cfc;
+}
+#ii{
+    color: blue;
+    padding-bottom: 10px;
+    font-size: 2em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+}
+#yy{
+    color: darkblue;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    font-size: 1.8em;
+    font-family:'Cairo', sans-serif;
+}
+#ff{
+    padding-right: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.7em;
+}
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#y{
+    padding-left: 600px;
+    padding-right: 500px;
+    color: rgb(60, 0, 255);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+#t{
+    padding-left: 500px;
+    padding-right: 600px;
+    color: rgb(60, 0, 255);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    background-color: #000016  ;
+    
+}
+.fa9ra4 {
+    background-color: #000016;
+}
+#fa9{
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+}
+#yyy{
+   padding-left: 600px;
+   padding-right: 500px;
+   color: #fff;
+   font-family: 'Cairo', sans-serif;
+   font-weight: 900;
+   font-size: 2em;
+}
+#ttt{
+    padding-left: 400px;
+    padding-right: 600px;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+/*bch twalli responsive fil ajheza el kol*/
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    #yyy{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.9em;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #ttt{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.7em;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    #y{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.9em;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #t{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.9em;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
